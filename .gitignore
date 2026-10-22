@@ -1,0 +1,27 @@
+
+# 环境变量和敏感配置
+.env
+.env.*
+!.env.example
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# 测试和覆盖率
+.coverage
+htmlcov/
+
+# 编辑器配置
+.idea/
+.vscode/
+
+# 系统文件
+.DS_Store
+Thumbs.db

@@ -1,0 +1,23 @@
+# Web 框架与服务启动
+fastapi==0.138.0
+uvicorn==0.52.4
+
+# 数据校验与数据库
+pydantic==2.13.5
+SQLAlchemy==2.1.4
+PyMySQL==1.2.3
+python-dotenv==1.2.2
+
+# 密码哈希与 JWT
+pwdlib[argon2]==0.3.1
+python-jose[cryptography]==3.5.0
+
+# 数据库迁移
+alembic==1.20.0
+
+# Redis 缓存
+redis==8.1.0
+
+# 自动化测试
+pytest==9.1.1
+httpx==0.28.1
